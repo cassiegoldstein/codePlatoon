@@ -6,7 +6,7 @@ def fibonacci(num):
         print(num)
 
     else:
-        for i in range(num):
+        for i in range(num-1):
             fib = num1 + num2
             num1 = num2
             num2 = fib
