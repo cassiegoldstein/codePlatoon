@@ -11,7 +11,3 @@ def fibonacci(num):
             num1 = num2
             num2 = fib
             i = i + 1
-
-        print(fib)
-
-fibonacci(5)
