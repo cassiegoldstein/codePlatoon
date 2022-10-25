@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    background-color: aliceblue;
+}
+
+.gameTitle {
+    padding-top: 50px;
+    font-family: 'Butterfly Kids', cursive;
+    color: mediumpurple;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+.guessSubmit {
+    margin-top: 15px;
+    border-radius: 50px;
+    height: 50px;
+    width: 150px;
+    border-color: mediumpurple;
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+    color: white;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+
+.guessSubmit:hover {
+    background-position: right center;
+}
+
+.guessText {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+}
+
+.guessField{
+    width: 200px;
+    margin-left: 10px;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+
+}
+
+.formSect{
+    padding-bottom: 50px;
+}
