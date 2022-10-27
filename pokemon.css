@@ -1,0 +1,16 @@
+body{
+    margin: auto;
+    padding: 25px;
+}
+
+.pokemon-container{
+    margin: 25px;
+}
+
+.pokemon-team{
+    margin: 25px;
+}
+
+.center-align{
+    margin: auto;
+}
